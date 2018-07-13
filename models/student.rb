@@ -8,4 +8,6 @@ class Student
     STUDENTS << self
   end
 
+  
+
 end
