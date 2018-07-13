@@ -9,6 +9,6 @@ class App < Sinatra::Base
   post '/student' do
     @student = Student.new(params[:student])
 
-    params[:student][:courses]
+    params[:student][:courses][]
 
 end
