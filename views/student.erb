@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Student</title>
+  </head>
+  <body>
+    <h1>Student</h1>
+    <form action='/student' method="POST">
+      Student Name: <input type="text" name="student[name]">
+      Student Grade: <input type="text" name="student[grade]">
+      Course Name: <input type="text" name="student[courses][][name]">
+      Course Topic: <input type="text" name="student[courses][][name]">
+      <input type="submit">
+    </form>
+  </body>
+
+</html>
